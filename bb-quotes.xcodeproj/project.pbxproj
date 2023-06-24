@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		412023342A46728B00F37A9A /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412023332A46728B00F37A9A /* QuoteView.swift */; };
+		412023362A473D4000F37A9A /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412023352A473D4000F37A9A /* CharacterView.swift */; };
 		419A60912A4620B80031DE8D /* bb_quotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419A60902A4620B80031DE8D /* bb_quotesApp.swift */; };
 		419A60932A4620B80031DE8D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419A60922A4620B80031DE8D /* ContentView.swift */; };
 		419A60952A4620BA0031DE8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 419A60942A4620BA0031DE8D /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		412023332A46728B00F37A9A /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
+		412023352A473D4000F37A9A /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
 		419A608D2A4620B80031DE8D /* bb-quotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bb-quotes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		419A60902A4620B80031DE8D /* bb_quotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bb_quotesApp.swift; sourceTree = "<group>"; };
 		419A60922A4620B80031DE8D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				419A60902A4620B80031DE8D /* bb_quotesApp.swift */,
 				419A60922A4620B80031DE8D /* ContentView.swift */,
 				412023332A46728B00F37A9A /* QuoteView.swift */,
+				412023352A473D4000F37A9A /* CharacterView.swift */,
 				419A60A22A46230D0031DE8D /* Quote.swift */,
 				419A60A42A4623490031DE8D /* Character.swift */,
 				419A60A62A4623E00031DE8D /* FetchController.swift */,
@@ -169,6 +172,7 @@
 				412023342A46728B00F37A9A /* QuoteView.swift in Sources */,
 				419A60A72A4623E00031DE8D /* FetchController.swift in Sources */,
 				419A60A52A4623490031DE8D /* Character.swift in Sources */,
+				412023362A473D4000F37A9A /* CharacterView.swift in Sources */,
 				419A60A92A4627D60031DE8D /* Constants.swift in Sources */,
 				41F423C52A4644CC0084FAC7 /* ViewModel.swift in Sources */,
 			);
@@ -302,6 +306,7 @@
 				DEVELOPMENT_TEAM = 6NZUM7E583;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Say My Name";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -331,6 +336,7 @@
 				DEVELOPMENT_TEAM = 6NZUM7E583;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Say My Name";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
